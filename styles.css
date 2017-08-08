@@ -67,3 +67,17 @@ header {
   justify-content: space-around;
   padding: 0 10px;
 }
+
+@media screen and (min-width: 375px) {
+  .headerWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(44, 42, 43, 0.5);
+    color: #eae7e4;
+    position: scroll;
+    width: 100%;
+  }
+}
