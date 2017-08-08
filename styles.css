@@ -81,3 +81,26 @@ header {
   justify-content: space-around;
   padding: 0 10px;
 }
+
+/* DESKTOP */
+
+@media screen and (min-width: 769px) {
+  .headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(44, 42, 43, 0.5);
+    color: #eae7e4;
+    width: 100%;
+  }
+
+  .projectsWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projectWrapper {
+    flex: 0 33%;
+  }
+}
