@@ -102,5 +102,6 @@ header {
 
   .projectWrapper {
     flex: 0 33%;
+    text-align: center;
   }
 }
