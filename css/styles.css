@@ -67,10 +67,11 @@ header {
   font-family: 'Special Elite', "cursive";
 }
 
-.resumeCoverLetter {
+/* RESUME & CONTACT */
+
+.resumeContactContainer {
   display: flex;
   justify-content: space-around;
-  padding: 0 10px;
 }
 
 /* DESKTOP */
