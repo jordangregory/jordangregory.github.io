@@ -1,0 +1,37 @@
+/* .projectsWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.individualWrapper {
+  flex: 0 33%;
+  text-align: center;
+}
+
+.projectsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.screenshots {
+  width: 360px;
+  height: 200px;
+  margin: 0 10px;
+}
+
+
+	<!-- HTML ONLY -->
+	<!-- <div class="projectsWrapper">
+
+		<div class="indiviualWrapper">
+			<img class="screenshots" src="./soundcloudScreenshot.png" alt="gabble">
+		</div>
+		<div class="indiviualWrapper">
+			<img class="screenshots" src="./gabbleScreenshot.png" alt="gabble">
+		</div>
+		<div class="indiviualWrapper">
+			<img class="screenshots" src="./topshelfScreenshot.png" alt="gabble">
+		</div>
+
+	</div> --> */

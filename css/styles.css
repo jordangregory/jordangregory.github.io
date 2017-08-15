@@ -1,7 +1,6 @@
 body {
   font-family: 'Special Elite', "cursive";
-
-  background: url("./backgroundPic.jpg") no-repeat center center fixed;
+  background: url("../pictures/backgroundPic.jpg") no-repeat center center fixed;
 }
 
 h1 {
@@ -64,16 +63,8 @@ header {
 
 /* PROJECTS */
 
-.projectsWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.screenshots {
-  width: 360px;
-  height: 200px;
-  margin: 10px 0;
+.container {
+  font-family: 'Special Elite', "cursive";
 }
 
 .resumeCoverLetter {
@@ -93,15 +84,5 @@ header {
     background-color: rgba(44, 42, 43, 0.5);
     color: #eae7e4;
     width: 100%;
-  }
-
-  .projectsWrapper {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .projectWrapper {
-    flex: 0 33%;
-    text-align: center;
   }
 }
