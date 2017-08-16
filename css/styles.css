@@ -1,6 +1,7 @@
 body {
   font-family: 'Special Elite', "cursive";
   background: url("../pictures/backgroundPic.jpg") no-repeat center center fixed;
+  color: white;
 }
 
 h1 {
@@ -19,7 +20,7 @@ header {
   justify-content: center;
   box-sizing: border-box;
   padding: 10px;
-  background-color: rgba(44, 42, 43, 0.5);
+  background-color: rgba(44, 42, 43, 0.3);
   color: #eae7e4;
   width: 100%;
 }
@@ -61,10 +62,29 @@ header {
   color: blue;
 }
 
+.aboutMe {
+  font-family: 'Special Elite', "cursive";
+  padding: 10px;
+  background-color: rgba(44, 42, 43, 0.3);
+  margin: 10px 0;
+  width: 50%;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 25%;
+}
+
 /* PROJECTS */
 
 .container {
   font-family: 'Special Elite', "cursive";
+  color: white;
+}
+
+.carousel-caption {
+  background-color: rgba(44, 42, 43, 0.5);
+  text-decoration: none;
 }
 
 /* RESUME & CONTACT */
