@@ -94,7 +94,31 @@ header {
   justify-content: space-around;
 }
 
-/* DESKTOP */
+.btn-group-lg > .btn,
+.btn-lg {
+  margin: 50px;
+  padding: 40px 46px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.downloadResume {
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
+
+.resume1,
+.resume2 {
+  width: 100%;
+}
+
+/* MOBILE */
 
 @media screen and (min-width: 769px) {
   .headerWrapper {
