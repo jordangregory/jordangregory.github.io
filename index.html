@@ -16,26 +16,87 @@
 <body>
 
 	<header class="headerWrapper">
-		<a href="https://www.linkedin.com/in/jordangregory22/"> <img src="./pictures/head.jpg" alt="jordan" class="headPic"></a>
-		<div>
-			<h1>Jordan Gregory</h1>
-			<h4>Web Developer</h4>
+		<div class="titlePic">
+			<div>
+				<a href="https://www.linkedin.com/in/jordangregory22/"> <img src="./pictures/head.jpg" alt="jordan" class="headPic"></a>
+			</div>
+			<div>
+				<h1>Jordan Gregory</h1>
+				<h4>Web Developer</h4>
+			</div>
 		</div>
-		<div class="icons">
-			<a id="iconLinkedIn" class="fa fa-linkedin-square" aria-hidden="true" href="https://www.linkedin.com/in/jordangregory22/"></a>
-			<a id="iconGitHub" class="fa fa-github icon" aria-hidden="true" href="https://github.com/jordangregory"></a>
-			<a id="iconGmail" class="fa fa-envelope-o" aria-hidden="true" href="mailto:jordangregory@gmail.com"></a>
+
+
+
+		<div class="modalContainer">
+
+			<div class="resumeContainer">
+				<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal1">Resume</button>
+				<div class="modal fade" id="myModal1" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Resume</h4>
+							</div>
+							<div class="modal-body">
+								<a class="fa fa-download downloadResume" aria-hidden="true" href="./resume.pdf" download>Click to download</a>
+								<img class="resume1" src="resumeScreenshot1.png" alt="resume1">
+								<img class="resume2" src="resumeScreenshot2.png" alt="resume2">
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default active" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="contactContainer">
+				<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal2">Contact</button>
+				<div class="modal fade" id="myModal2" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Contact</h4>
+							</div>
+							<div class="modal-body">
+								<p class="fa fa-mobile" aria-hidden="true"> Phone: 803-940-1251</p>
+								<br>
+								<p class="fa fa-envelope-o" aria-hidden="true"> Email: jordangregory@gmail.com</p>
+								<div class="icons">
+									<a id="iconLinkedIn" class="fa fa-linkedin-square" aria-hidden="true" href="https://www.linkedin.com/in/jordangregory22/"></a>
+									<a id="iconGitHub" class="fa fa-github icon" aria-hidden="true" href="https://github.com/jordangregory"></a>
+									<a id="iconGmail" class="fa fa-envelope-o" aria-hidden="true" href="mailto:jordangregory@gmail.com"></a>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default active" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
+
+
+
 	</header>
 
+
+
 	<div class="aboutMe">
-		<h1>Who I am...</h1>
 		<div>
+			<h1>Who I am...</h1>
 			<p>My name is Jordan Gregory, and I am a full stack developer seeking out a career in programming. My goal is work along
 				side other programmers to efficiently produce quailty products. It's my passion to be in a team driven environment and
 				use my skills of communicatation, leadership, and self-motivation to succeed. </p>
 		</div>
 	</div>
+
+
 
 	<div class="container">
 		<h1>Projects</h1>
@@ -89,54 +150,6 @@
 		</div>
 	</div>
 
-	<div class="resumeContactContainer">
-
-		<div class="resumeContainer">
-			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Resume</button>
-			<div class="modal fade" id="myModal1" role="dialog">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Resume</h4>
-						</div>
-						<div class="modal-body">
-							<a class="fa fa-download downloadResume" aria-hidden="true" href="./resume.pdf" download>Click to download</a>
-							<img class="resume1" src="resumeScreenshot1.png" alt="resume1">
-							<img class="resume2" src="resumeScreenshot2.png" alt="resume2">
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default active" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="contactContainer">
-			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Contact</button>
-			<div class="modal fade" id="myModal2" role="dialog">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Contact</h4>
-						</div>
-						<div class="modal-body">
-							<p class="fa fa-mobile" aria-hidden="true"> Phone: 803-940-1251</p>
-							<br>
-							<p class="fa fa-envelope-o" aria-hidden="true"> Email: jordangregory@gmail.com</p>
-
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default active" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
 
 	<script src="https://use.fontawesome.com/1fb0e0504a.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
