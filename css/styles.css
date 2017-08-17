@@ -17,7 +17,7 @@ header {
 .headerWrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
   background-color: rgba(44, 42, 43, 0.3);
@@ -86,11 +86,16 @@ header {
 .container {
   font-family: 'Special Elite', "cursive";
   color: white;
+  margin: 50px;
 }
 
 .carousel-caption {
   background-color: rgba(44, 42, 43, 0.5);
   text-decoration: none;
+}
+
+#myCarousel {
+  border: 5px solid black;
 }
 
 /* RESUME & CONTACT */
@@ -126,7 +131,7 @@ header {
 
 /* MOBILE */
 
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
   .headerWrapper {
     display: flex;
     justify-content: space-between;
@@ -135,5 +140,11 @@ header {
     background-color: rgba(44, 42, 43, 0.5);
     color: #eae7e4;
     width: 100%;
+  }
+
+  .modalContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
   }
 }
