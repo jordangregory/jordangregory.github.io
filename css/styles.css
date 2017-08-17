@@ -1,8 +1,15 @@
+/* html {
+  background-color: black;
+} */
+
 body {
   font-family: 'Special Elite', "cursive";
-  background: url("../pictures/backgroundPic.jpg") no-repeat center center fixed;
-  color: white;
+  background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
 }
+
+/* .bodyDiv {
+  background-color: gray;
+} */
 
 h1 {
   text-align: center;
@@ -20,13 +27,19 @@ header {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
-  background-color: rgba(44, 42, 43, 0.3);
-  color: #eae7e4;
+  background-color: rgba(128, 128, 128, 0.8);
   width: 100%;
 }
 
 .titlePic {
   display: flex;
+}
+
+.titleWords {
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.8);
+  border-radius: 6px;
+  padding: 10px;
 }
 
 .headPic {
@@ -70,11 +83,12 @@ header {
 .aboutMe {
   display: flex;
   font-family: 'Special Elite', "cursive";
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.8);
+  border-radius: 6px;
   padding: 10px;
-  background-color: rgba(44, 42, 43, 0.3);
   margin: 10px 0;
   width: 75%;
-  color: white;
   text-align: center;
   position: relative;
   top: 50%;
@@ -85,7 +99,7 @@ header {
 
 .container {
   font-family: 'Special Elite', "cursive";
-  color: white;
+  padding: 10px;
   margin: 50px;
 }
 
@@ -94,9 +108,9 @@ header {
   text-decoration: none;
 }
 
-#myCarousel {
-  border: 5px solid black;
-}
+/* #myCarousel {
+  border: 5px solid #cd3d2d;
+} */
 
 /* RESUME & CONTACT */
 
@@ -145,7 +159,7 @@ header {
     box-sizing: border-box;
     padding: 10px;
     background-color: rgba(44, 42, 43, 0.5);
-    color: black;
+    color: white;
     width: 100%;
   }
 
