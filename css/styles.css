@@ -116,13 +116,20 @@ header {
 
 .modal-header {
   text-align: center;
+  color: black;
 }
 
-/* .downloadResume {
+.modal-body-contact {
+  color: black;
+  font-family: 'Special Elite', "cursive";
+  font-size: 30px;
+}
+
+.downloadResume {
   text-align: center;
   text-decoration: none;
-  color: red;
-} */
+  color: black;
+}
 
 .resume1,
 .resume2 {
