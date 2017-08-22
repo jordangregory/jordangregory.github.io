@@ -1,7 +1,12 @@
 body {
   font-family: 'Boogaloo', 'cursive';
-  background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
+  background: url(../pictures/overlay.png) no-repeat center center fixed;
 }
+
+/* .bodyDiv {
+  background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
+  opacity: 0.5;
+} */
 
 h1 {
   text-align: center;
@@ -19,8 +24,8 @@ header {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
-  color: goldenrod;
-  background-color: rgba(128, 128, 128, 0.95);
+  color: black;
+  /* background-color: rgba(128, 128, 128, 0.95); */
   width: 100%;
 }
 
@@ -77,8 +82,8 @@ header {
   display: flex;
   font-family: 'Boogaloo';
   font-size: 20px;
-  color: goldenrod;
-  background-color: rgba(128, 128, 128, 0.95);
+  color: black;
+  /* background-color: rgba(128, 128, 128, 0.95); */
   border-radius: 6px;
   padding: 10px;
   margin: 10px 0;
@@ -98,8 +103,8 @@ header {
 }
 
 .titleWords {
-  color: goldenrod;
-  background-color: rgba(128, 128, 128, 0.95);
+  color: black;
+  /* background-color: rgba(128, 128, 128, 0.95); */
   border-radius: 6px;
   padding: 10px;
 }
@@ -154,8 +159,8 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     padding: 10px;
-    background-color: rgba(128, 128, 128, 0.95);
-    color: goldenrod;
+    /* background-color: rgba(128, 128, 128, 0.95); */
+    color: black;
     width: 100%;
   }
 
