@@ -3,7 +3,8 @@
 } */
 
 body {
-  font-family: 'Special Elite', "cursive";
+  font-family: 'Boogaloo', 'cursive';
+  /* font-family: 'Special Elite', "cursive"; */
   background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
 }
 
@@ -18,7 +19,7 @@ h1 {
 
 header {
   text-align: center;
-  font-family: 'Special Elite', "cursive";
+  font-family: 'Boogaloo';
 }
 
 .headerWrapper {
@@ -27,7 +28,8 @@ header {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
-  background-color: rgba(128, 128, 128, 0.8);
+  color: goldenrod;
+  background-color: rgba(128, 128, 128, 0.95);
   width: 100%;
 }
 
@@ -36,8 +38,8 @@ header {
 }
 
 .titleWords {
-  color: #fff;
-  background-color: rgba(128, 128, 128, 0.8);
+  color: goldenrod;
+  background-color: rgba(128, 128, 128, 0.95);
   border-radius: 6px;
   padding: 10px;
 }
@@ -82,9 +84,10 @@ header {
 
 .aboutMe {
   display: flex;
-  font-family: 'Special Elite', "cursive";
-  color: #fff;
-  background-color: rgba(128, 128, 128, 0.8);
+  font-family: 'Boogaloo';
+  font-size: 20px;
+  color: goldenrod;
+  background-color: rgba(128, 128, 128, 0.95);
   border-radius: 6px;
   padding: 10px;
   margin: 10px 0;
@@ -98,7 +101,7 @@ header {
 /* PROJECTS */
 
 .container {
-  font-family: 'Special Elite', "cursive";
+  font-family: 'Boogaloo';
   padding: 10px;
   margin: 50px;
 }
@@ -108,9 +111,9 @@ header {
   text-decoration: none;
 }
 
-/* #myCarousel {
-  border: 5px solid #cd3d2d;
-} */
+#myCarousel {
+  border: 5px solid goldenrod;
+}
 
 /* RESUME & CONTACT */
 
@@ -135,7 +138,7 @@ header {
 
 .modal-body-contact {
   color: black;
-  font-family: 'Special Elite', "cursive";
+  font-family: 'Boogaloo';
   font-size: 30px;
 }
 
@@ -159,7 +162,7 @@ header {
     box-sizing: border-box;
     padding: 10px;
     background-color: rgba(44, 42, 43, 0.5);
-    color: white;
+    color: goldenrod;
     width: 100%;
   }
 
