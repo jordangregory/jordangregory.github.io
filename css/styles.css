@@ -28,18 +28,18 @@ header {
   display: flex;
 }
 
-.titleWords {
-  color: goldenrod;
-  background-color: rgba(128, 128, 128, 0.95);
-  border-radius: 6px;
-  padding: 10px;
-}
-
 .headPic {
   border-radius: 50%;
   height: 115px;
   width: 115px;
   margin-right: 20px;
+}
+
+.name > h1 {
+  font-size: 50px;
+}
+.name > h4 {
+  font-size: 30px;
 }
 
 .icons {
@@ -97,21 +97,23 @@ header {
   margin: 50px;
 }
 
+.titleWords {
+  color: goldenrod;
+  background-color: rgba(128, 128, 128, 0.95);
+  border-radius: 6px;
+  padding: 10px;
+}
+
 .carousel-caption {
   background-color: rgba(44, 42, 43, 0.5);
   text-decoration: none;
 }
 
 #myCarousel {
-  border: 5px solid goldenrod;
+  border: 5px solid black;
 }
 
 /* RESUME & CONTACT */
-
-/* .resumeContactContainer {
-  display: flex;
-  justify-content: space-around;
-} */
 
 .btn-group-lg > .btn,
 .btn-lg {
@@ -152,7 +154,7 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     padding: 10px;
-    background-color: rgba(44, 42, 43, 0.5);
+    background-color: rgba(128, 128, 128, 0.95);
     color: goldenrod;
     width: 100%;
   }
@@ -172,5 +174,12 @@ header {
     border-radius: 6px;
     position: relative;
     left: 50%;
+  }
+
+  .name > h1 {
+    font-size: 36px;
+  }
+  .name > h4 {
+    font-size: 20px;
   }
 }
