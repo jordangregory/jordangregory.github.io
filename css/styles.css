@@ -1,16 +1,7 @@
-/* html {
-  background-color: black;
-} */
-
 body {
   font-family: 'Boogaloo', 'cursive';
-  /* font-family: 'Special Elite', "cursive"; */
   background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
 }
-
-/* .bodyDiv {
-  background-color: gray;
-} */
 
 h1 {
   text-align: center;
@@ -48,7 +39,7 @@ header {
   border-radius: 50%;
   height: 115px;
   width: 115px;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .icons {
@@ -117,10 +108,10 @@ header {
 
 /* RESUME & CONTACT */
 
-.resumeContactContainer {
+/* .resumeContactContainer {
   display: flex;
   justify-content: space-around;
-}
+} */
 
 .btn-group-lg > .btn,
 .btn-lg {
@@ -170,5 +161,16 @@ header {
     display: flex;
     flex-direction: row;
     margin-left: 60px;
+  }
+
+  .btn-group-lg > .btn,
+  .btn-lg {
+    margin: 3px;
+    padding: 5px;
+    font-size: 30px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    position: relative;
+    left: 50%;
   }
 }
