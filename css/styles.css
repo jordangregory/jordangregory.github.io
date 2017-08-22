@@ -1,12 +1,16 @@
-body {
-  font-family: 'Boogaloo', 'cursive';
-  background: url(../pictures/overlay.png) no-repeat center center fixed;
+html {
+  background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
   background-size: 100%;
 }
 
-/* h1 {
-  text-align: center;
-} */
+body {
+  max-width: 1100px !important;
+  margin: auto !important;
+  font-family: 'Boogaloo', 'cursive';
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4) !important;
+}
+
 /* HEADER */
 
 header {
@@ -29,18 +33,112 @@ header {
   display: flex;
 }
 
+.name > h1 {
+  font-size: 3.5em;
+  color: white;
+}
+
 .headPic {
   border-radius: 50%;
   height: 115px;
   width: 115px;
-  margin-right: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 46%;
+  margin-bottom: 10px;
 }
 
-.name > h1 {
-  font-size: 50px;
+.modalContainer {
+  display: flex;
+  flex-direction: row;
 }
-.name > h4 {
+/* WHO I AM */
+
+.aboutMe {
+  display: flex;
+  font-family: 'Boogaloo';
+  font-size: 22px;
+  color: black;
+  background-color: white;
+
+  box-shadow: 0px 0px 10px black;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+/* PROJECTS */
+
+.container {
+  font-family: 'Boogaloo';
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.titleWords {
+  color: black;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 50%;
+}
+
+.carousel-caption {
+  background-color: rgba(44, 42, 43, 0.5);
+  text-decoration: none;
+}
+
+#myCarousel {
+  box-shadow: 0px 0px 10px black;
+  border-radius: 6px;
+}
+
+/* RESUME & CONTACT */
+
+.contactContainer {
+  margin-top: 21px;
+}
+.resumeContainer {
+  margin-top: 21px;
+  margin-right: 10px;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  margin-top: 5px;
+  padding: 5px;
   font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.modal-header {
+  text-align: center;
+  color: black;
+}
+
+.modal-body-contact {
+  color: black;
+  font-family: 'Boogaloo';
+  font-size: 30px;
+}
+
+.downloadResume {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.resume1,
+.resume2 {
+  width: 100%;
 }
 
 .icons {
@@ -69,136 +167,38 @@ header {
   padding: 5px;
 }
 
-#icon:visited {
-  text-decoration: none;
-  color: blue;
-}
-
-.who {
-  text-align: center;
-  background-color: white;
-}
-
-.aboutMe {
-  display: flex;
-  font-family: 'Boogaloo';
-  font-size: 22px;
-  color: black;
-  background-color: white;
-  border: 5px solid black;
-  border-radius: 6px;
-  padding: 10px;
-  margin: 10px 0;
-  width: 75%;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 13%;
-}
-
-/* PROJECTS */
-
-.container {
-  font-family: 'Boogaloo';
-  padding: 10px;
-  margin: 50px;
-}
-
-.titleWords {
-  color: black;
-  background-color: white;
-  text-align: center;
-  border: 5px solid black;
-  border-radius: 6px;
-  padding: 10px;
-  position: relative;
-  width: 50%;
-  left: 25%;
-}
-
-.carousel-caption {
-  background-color: rgba(44, 42, 43, 0.5);
-  text-decoration: none;
-}
-
-#myCarousel {
-  border: 5px solid black;
-  border-radius: 6px;
-}
-
-/* RESUME & CONTACT */
-
-.btn-group-lg > .btn,
-.btn-lg {
-  margin: 5px;
-  padding: 5px;
-  font-size: 30px;
-  line-height: 1.3333333;
-  border-radius: 6px;
-}
-
-.modal-header {
-  text-align: center;
-  color: black;
-}
-
-.modal-body-contact {
-  color: black;
-  font-family: 'Boogaloo';
-  font-size: 30px;
-}
-
-.downloadResume {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
-.resume1,
-.resume2 {
-  width: 100%;
-}
-
 /* MOBILE */
 
 @media screen and (max-width: 769px) {
-  body {
-    font-family: 'Boogaloo', 'cursive';
-    background: url(../pictures/overlay.png) no-repeat center center fixed;
+  html {
+    background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
   }
 
-  .headerWrapper {
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    padding: 10px;
-    /* background-color: rgba(128, 128, 128, 0.95); */
-    color: black;
-    width: 100%;
+  body {
+    max-width: 1100px !important;
+    margin: auto !important;
+    font-family: 'Boogaloo', 'cursive';
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4) !important;
   }
 
   .modalContainer {
     display: flex;
     flex-direction: row;
-    margin-left: 60px;
   }
 
   .btn-group-lg > .btn,
   .btn-lg {
-    margin: 3px;
     padding: 5px;
     font-size: 30px;
     line-height: 1.3333333;
     border-radius: 6px;
-    position: relative;
-    left: 50%;
+    margin: auto;
   }
 
   .name > h1 {
     font-size: 36px;
-  }
-  .name > h4 {
-    font-size: 20px;
+    color: white;
   }
 
   .aboutMe {
@@ -206,7 +206,6 @@ header {
     font-family: 'Boogaloo';
     font-size: 20px;
     color: black;
-    /* background-color: rgba(128, 128, 128, 0.95); */
     border-radius: 6px;
     padding: 10px;
     margin: 10px 0;
@@ -215,5 +214,14 @@ header {
     position: relative;
     top: 50%;
     left: 13%;
+  }
+  .headPic {
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 36%;
+    margin-bottom: 10px;
   }
 }
