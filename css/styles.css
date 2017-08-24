@@ -176,7 +176,7 @@ header {
   background-color: white;
   box-shadow: 0px 0px 10px black;
   border-radius: 6px;
-  margin: 0 auto;
+  margin: 5px auto;
   width: 50%;
 }
 
@@ -266,16 +266,6 @@ i {
     width: 92%;
   }
 
-  /* .languages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    box-shadow: 0px 0px 10px black;
-    border-radius: 6px;
-    margin: 15px;
-    width: 50%;
-  } */
   svg {
     height: 100px;
     width: 100px;
