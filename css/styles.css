@@ -197,9 +197,10 @@ i {
 .secondRow {
   text-align: center;
 }
+
 /* MOBILE */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 375px) {
   html {
     background: url(../pictures/serverPic.jpg) no-repeat center center fixed;
   }
@@ -251,7 +252,7 @@ i {
     width: 115px;
     margin-bottom: 10px;
     position: relative;
-    left: 31%;
+    left: 29%;
     margin: 10px;
   }
 
@@ -270,5 +271,27 @@ i {
     height: 100px;
     width: 100px;
     padding: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .languages {
+    display: flex;
+    flex-flow: none;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 6px;
+    margin: 0 auto;
+    width: 49%;
+  }
+  .headPic {
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 43%;
+    margin: 20px;
   }
 }
